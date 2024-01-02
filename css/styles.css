@@ -261,6 +261,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover {
   background-color: #31d0aa;
@@ -368,6 +369,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-four-svg-link:hover {
   background-color: #404bbf;
@@ -401,6 +403,8 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--icons-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fifth-section-link:hover {
   border-color: #404bbf;
