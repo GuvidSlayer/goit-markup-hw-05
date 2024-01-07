@@ -334,7 +334,7 @@ body {
 .portfolio-link:hover .images-paragraph {
   transform: translateY(0%);
 }
-.portfolio-link:focus.images-paragraph {
+.portfolio-link:focus .images-paragraph {
   transform: translateY(0%);
 }
 
