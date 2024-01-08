@@ -94,7 +94,6 @@ body {
 .nav-items::after {
   content: "";
   position: absolute;
-
   height: 4px;
   background-color: var(--ocean-color);
   border-radius: 2px;
