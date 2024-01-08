@@ -322,7 +322,6 @@ body {
   align-items: flex-start;
   row-gap: 48px;
   column-gap: 24px;
-  flex-shrink: 0;
   padding-bottom: 120px;
 }
 .portfolio-link {
@@ -344,9 +343,10 @@ body {
 }
 
 .project-image {
-  padding-bottom: 32px;
+  display: block;
 }
 .items-title {
+  padding-top: 32px;
   padding-bottom: 8px;
   padding-left: 16px;
 }
